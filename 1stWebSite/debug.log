@@ -1,0 +1,2 @@
+[0102/161650.594:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0102/165405.357:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Shimu\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d61e2589-bed8-4d61-a7c5-ba1353081ef7: The system cannot find the path specified. (0x3)

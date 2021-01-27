@@ -1,0 +1,57 @@
+
+h1{
+    color:blue;
+    background-color: cyan;
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#birthday{
+    font-size: 20px;
+}
+img{
+    width:20%;
+}
+.friend{
+    color: darkblue;
+    background-color: darkred;
+}
+h1.friend{
+    color: deepskyblue;
+}
+.romantic{
+    color: red;
+}
+.blog{
+    background-color: salmon;
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin: 30px 80px 60px 20px;
+    padding: 40px;
+}
+.tmi{
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+.ami{
+    text-align: center;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    display: inline-block;
+   
+    
+}
+h2{
+    text-align: justify;
+}
+
+img{
+    margin: auto;
+}

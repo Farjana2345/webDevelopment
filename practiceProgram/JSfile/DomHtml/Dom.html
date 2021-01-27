@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <style>
+        article{
+            border: 2px solid tomato;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        body{
+            width: auto;
+            
+        }
+    </style>
+</head>
+<body>
+   <main>
+        <section>
+            <h1 id="frist">Exploring Dom</h1>
+            <h3>Explore</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, deleniti!</p>
+        </section >
+        <section>
+            <article class="special">
+                <h3>article-1</h3>
+                <p class="author">author-1</p>
+                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi laboriosam accusamus nemo deleniti nisi quibusdam harum, debitis ducimus eum eos aliquid neque. Reprehenderit, eveniet nulla tenetur eaque eos repellat maiores!</p>
+            </article>
+            <article class="special">
+                <h3>article-2</h3>
+                <p class="author">author-2</p>
+                <p class="description">Facere repellendus molestiae, incidunt doloremque nobis cupiditate culpa. Ipsum perspiciatis ipsam, rem ducimus reprehenderit consectetur iure aliquam. Pariatur molestiae dolor, rem at quis natus quos, error perspiciatis, quas quidem est?</p>
+            </article>
+            <article>
+                <h3>article-3</h3>
+                <p class="author">author-3</p>
+                <p class="description">Eos ut dicta molestiae, consequatur vitae laborum ratione cumque architecto temporibus beatae et iste, accusamus facilis corrupti quia aut natus nostrum qui quis, nulla sit. Repellat mollitia ratione corrupti ipsa.</p>
+            </article>
+        </section>
+   </main>
+   <!-- <script>
+       var styles=document.getElementById('frist');
+       frist.style.backgroundColor = 'yellow';
+       frist.style.fontSize = '45px';
+   </script> -->
+   <script>
+       document.body.style.backgroundColor='tomato';
+       var authors = document.querySelectorAll('.special h3');
+       for(var i = 0;i<=authors.length; i++){
+           var element = authors[i];
+        //    console.log(element.innerHTML);
+           element.innerHTML='Lekhok-'+ i;
+           element.style.backgroundColor = 'lightblue';
+           element.style.margin = '10px';
+       }
+   </script>
+</body>
+</html>

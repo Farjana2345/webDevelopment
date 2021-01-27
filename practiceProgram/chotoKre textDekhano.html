@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: goldenrod;
+        }
+        h1:hover{
+            color: indianred;
+            font-size: 60px;
+            background-color: lawngreen;
+        }
+        .special:hover{
+            color: indianred;
+            font-size: 60px;
+            background-color:red;
+        }
+        input:focus{
+            font-weight: 700;
+            font-size: 20px;
+            color: red;
+
+        }
+        li:last-child{
+            background-color: red;
+        }
+        li:nth-child(2n){
+            background-color: royalblue;
+        }
+        h1::before{
+            content:"hello ";
+            color: saddlebrown;
+            font-size: 15px;
+            background-color: slateblue;
+        }
+        .after-pseudo::after{
+            color: red;
+            content:" good bye";
+            font-size: 15px;
+            background-color: slateblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="after-pseudo">pseudo class</h1>
+    <h1>Normal class</h1>
+    <h1 class="special">video class</h1>
+    <input type="email" name="text">
+    <br>
+    <input type="email" name="text">
+    <ul>
+        <li>Alia</li>
+        <li>malia</li>
+        <li>dalia</li>
+        <li>salia</li>
+        <li>jalai</li>
+        <li>lima</li>
+        <li>suhi</li>
+    </ul>
+</body>
+</html>
